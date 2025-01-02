@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="style1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playwrite+MX+Guides&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MERAKI</title>
+  <style>
+    .body{
+      margin: 0;
+      padding: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: skyblue;
+    }
+    .h1{
+      color: green;
+    }
+    .h1,h3{
+      text-align: center;
+    }
+    .title{
+      color: aliceblue;
+      text-align: left;
+    }
+    
+    .u1{
+      margin: 0 10%;
+      padding: 10px 0px 10px 100px;
+      display: flex;
+      background: green;
+    }
+    ul li {
+      list-style: none;
+      padding: 10px 20px;
+    }
+    ul li a{
+      text-decoration: none; 
+            font-size: 24px; 
+            font-weight: bold; 
+            color:rgb(12, 2, 2);
+            position: relative; 
+  
+        } 
+        ul li a::before { 
+            content: ""; 
+            width: 0px; 
+            height: 10px; 
+            background: rgb(12, 1, 1); 
+            position: absolute; 
+            top: 100%; 
+            left: 0; 
+            transition: .5s; 
+        } 
+        ul li a:hover::before { 
+            width: 50%; 
+            transform: translateX(100%); 
+        }   
+               
+  </style>
+  <script
+    src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js">
+  </script>
+  <script>
+    $(document).ready(function(){
+      $(".slide").click(function(){
+        $(.slide).hide();
+      });
+    })
+  </script>
+  
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>  
+  <label>
+    <input type="checkbox">
+    <div class="toggle">
+        <span class="top_line common"></span>
+        <span class="middle_line common"></span>
+        <span class="bottom_line common"></span>
+    </div>
+    <div class="slide">
+        <h1 class="menu">Menu</h1>
+        <ul>
+            <li><a href="#"><i class="fas fa-home"></i>Home</a></li>
+            <li><a href="#shirt"><i class="fas fa-shirt"></i>Shirts</a></li>
+            <li><a href="#t-shirt"><i class="fas fa-tshirt"></i>t-shirts</a></li>
+            <li><a href="#jeans"><i class="fas fa-fire"></i>Jeans</a></li>
+            <li><a href="#jacket"><i class="fas fa-water"></i>Jackets</a></li>
+            <li><a href="#Hoodie"><i class="fas fa-mobile"></i>Hoodie</a></li>
+            <li><a href="#footwear"><i class="fas fa-cloud"></i>Footwear</a></li>
+           
+            <li><a href="#accessoris"><i class="fas fa-phone"></i>Accessories</a></li>
+            <li><a href="#Aboutus"><i class="fas fa-bus"></i>Aboutus</a></li>
+        </ul>
+    </div>
+</label>   
+<div class="bgcolor">
+  <div class="cont1">
+  <h1>Deeps Trending wears</h1>
+  </div>
+  <div class="bt">
+    <a href="test.html"><button class="btnlogin-popup" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button></a>
+  </div>
+  
+<div class="front"> 
+  <p>Welcome to Deeps Trending Wears! Crafted Exclusively for Men!</p><br>
+  <h3>Upgrade Your Style, Redefine Your Comfort</h3><br>
+  <p>Discover premium fashion, accessories, grooming essentials, and more designed to match your lifestyle.</p><br>
+  <h4>Explore Our Categories</h4><br>
+  <div id="sale">
+    <h1>Sales 25% On Everything</h1> 
+  </div>
+    
+</div>
+</div>
+<h2 class="product">Our Products</h2>
+
+  <div class="gallery">
+    <!--Shirt-->
+    <div id="shirt">
+    <div class="content">
+        <img src="shoppingmenshirt8.jpg"><br>
+        <h4>CB-COLEBROOK </h4><br>
+        <p>APPARELVIBES</p><br>
+         <p> Down Shirts Long Sleeve Linen Shirt Fashion Textured Beach Summer </p><br>
+         <h6>₹474.00</h6>             
+         <button class="buy-1">Buy now</button>
+    </div>
+
+    <div class="content">
+        <img src="shoppingmenshirt9.jpg"><br>
+        <h4>DHRUVI TRENDZ </h4><br>
+        <p>DHRUVI TRENDZ</p><br>
+         <p>Printed Regular Fit | Men Formal Half Sleeve Shirt</p><br>
+         <h6>₹349.00</h6>            
+         <button class="buy-2">Buy now</button>
+    </div>
+    
+    <div class="content">
+        <img src="shoppingmenshirt10.webp"><br>
+        <h4>Black Eagle </h4><br>
+        <p>Black Eagle</p><br>
+         <p>  Club Wear Starry Beaded Premium Party Shirt </p><br>
+         <h6>₹1599.00</h6>             
+         <button class="buy-3">Buy now</button>
+    </div>
+
+    <div class="content">
+        <img src="shoppingmenshirt3.jpg"><br>
+        <h4>CB-COLEBROOK </h4><br>
+        <p>Indian corge</p><br>
+         <p> Solid Soft Touch Cotton Casual Shirt with Pocket Design with Spread </p><br>
+         <h6>₹470.00</h6>             
+         <button class="buy-4">Buy now</button>
+    </div>
+
+    <div class="content">
+      <img src="shoppingmenshirt12.jpg"><br>
+      <h4>Regular Fit Shirt </h4><br>
+      <p>Nelson Fashion</p><br>
+       <p> Essential Men's Shirt Regular-fit shirt Pocket Oxford Shirt With Design </p><br>
+       <h6>₹560.00</h6>             
+       <button class="buy-4">Buy now</button>
+  </div>
+
+  <div class="content">
+    <img src="shoppingmenshirt11.jpg"><br>
+    <h4>Folgen men's </h4><br>
+    <p>Cotton Shirt</p><br>
+     <p> Full Sleeve Shirt Shirt and cotton shirt,Solid soft cotton with Design</p><br>
+     <h6>₹879.00</h6>             
+     <button class="buy-4">Buy now</button>
+</div>
+
+<div class="content">
+  <img src="shoppingmenshirt14.jpg"><br>
+  <h4>Affordable Luxury</h4><br>
+  <p>Craftmanship</p><br>
+   <p> Its Masterpiece. Style that doesn’t break a blank</p><br>
+   <h6>₹599.00</h6>             
+   <button class="buy-4">Buy now</button>
+</div>
+
+<div class="content">
+  <img src="shoppingmenshirt13.jpg"><br>
+  <h4>Trendy Shirts </h4><br>
+  <p>Custom fits</p><br>
+   <p> Stay head of the fashion  curve with contemporay styles with custom shirts</p><br>
+   <h6>₹699.00</h6>             
+   <button class="buy-4">Buy now</button>
+</div>
+  </div>
+  <h2 class="product">T-Shirts</h2>
+    <!--t-shirt-->
+    <div id="t-shirt">
+    <div class="content">
+      <img src="t-shirtmen5.jpg"><br>
+      <h4>Generic</h4><br>
+      <p>Geometric pattern</p><br>
+       <p> Alphabet Print Sports Collar Tshirt|| Comfortable T-shirt</p><br>
+       <h6>₹390.00</h6>             
+       <button class="buy-1">Buy now</button>
+  </div>
+
+  <div class="content">
+    <img src="t-shirtmen2.jpg"><br>
+    <h4>TURMS</h4><br>
+    <p>Anti Odor Polo T Shirt</p><br>
+     <p> Water Repellent | Stretchable T Shirt for Boys | </p><br>
+     <h6>₹1754.00</h6>             
+     <button class="buy-1">Buy now</button>
+</div>
+
+<div class="content">
+  <img src="t-shirtmen3.jpg"><br>
+  <h4>Lymio Men</h4><br>
+  <p>Cotton Blend</p><br>
+   <p> Men T-Shirt || T-Shirt for Men || Polo T Shirt || T-Shirt
+    Pattern Type: Plain</p><br>
+   <h6>₹359.00</h6>             
+   <button class="buy-1">Buy now</button>
+</div>
+
+<div class="content">
+  <img src="t-shirtmen4.webp"><br>
+  <h4>Pace International</h4><br>
+  <p>Sports sprirt</p><br>
+   <p> Care Instructions: Machine Wash Fit Type: Regular</p><br>
+   <h6>₹999.00</h6>             
+   <button class="buy-1">Buy now</button>
+</div>
+
+<div class="content">
+  <img src="t-shirtmen6.jpg"><br>
+  <h4>Powerplay Casual</h4><br>
+  <p>CloudComfort</p><br>
+   <p> Athletic Tees Engineered for movement and made for performance.</p><br>
+   <h6>₹399.00</h6>             
+   <button class="buy-1">Buy now</button>
+</div>
+
+<div class="content">
+  <img src="t-shirtmen7.jpg"><br>
+  <h4>Art In Motion</h4><br>
+  <p>Bold Expressions</p><br>
+   <p> Versatile Style Creative layering and lounging Material Solid Colours </p><br>
+   <h6>₹499.00</h6>             
+   <button class="buy-1">Buy now</button>
+</div>
+
+<div class="content">
+  <img src="t-shirtmen8.jpg"><br>
+  <h4>My style Tee</h4><br>
+  <p>Custom Fit Classics</p><br>
+   <p> Soft,breathable made with eco-friendly and casual days</p><br>
+   <h6>₹299.00</h6>             
+   <button class="buy-1">Buy now</button>
+</div>
+
+<div class="content">
+  <img src="t-shirtmen9.jpg"><br>
+  <h4>Weekend Vibes</h4><br>
+  <p>Luxe Threads</p><br>
+   <p> Ultra-soft, breathable,Sizes of Everybody Relaxed Fits</p><br>
+   <h6>₹359.00</h6>             
+   <button class="buy-1">Buy now</button>
+</div>
+</div>
+
+<!--jeans-->
+<h2 class="product">Jeans</h2>
+<div id="jeans">
+<div class="content">
+  <img src="jeansmen6.jpg"><br>
+  <h4>Lymio Men Jeans </h4><br>
+  <p>Cargo jeans</p><br>
+   <p>Men jeans || Jeans For Men || Cargo jeans
+    Details:Drawstring, Pocket</p><br>
+   <h6>₹899.00</h6>             
+   <button class="buy-1">Buy now</button>
+</div>
+
+<div class="content">
+  <img src="jeansmen2.jpg"><br>
+  <h4>Cargo Jeans</h4><br>
+  <p>Ganfancp Cargo jeans</p><br>
+   <p>Men Lightly Washed Relaxed Cargo Jeans</p><br>
+   <h6>₹1999.00</h6>             
+   <button class="buy-1">Buy now</button>
+</div>
+
+<div class="content">
+  <img src="jeansmen5.jpg"><br>
+  <h4>Louis Philippe</h4><br>
+  <p>Font-Trousers</p><br>
+   <p>Ovile Green comfy Tapered Fit Solid.Its More Comportable</p><br>
+   <h6>₹1651.00</h6>             
+   <button class="buy-1">Buy now</button>
+</div>
+
+<div class="content">
+  <img src="jeansmen4.jpg"><br>
+  <h4>Van Heusen</h4><br>
+  <p>Casual Pants</p><br>
+   <p>Van Heusen Men Regular Fit Casual pants</p><br>
+   <h6>₹1099.00</h6>             
+   <button class="buy-1">Buy now</button>
+</div>
+
+<div class="content">
+  <img src="jeansmen7.jpg"><br>
+  <h4>Gurka Pants</h4><br>
+  <p>Casual Pants</p><br>
+   <p> Sandal Linear comfy Tapered Fit Solid.Its More Comportable</p><br>
+   <h6>$799.00</h6>             
+   <button class="buy-1">Buy now</button>
+</div>
+
+<div class="content">
+  <img src="jeansmen8.jpg"><br>
+  <h4>Drawstring  Weist</h4><br>
+  <p>Oversize Smart</p><br>
+   <p>Beige Street Collar Fabric Plain Cargo Pants Embellished </p><br>
+   <h6>₹1159.00</h6>             
+   <button class="buy-1">Buy now</button>
+</div>
+
+<div class="content">
+  <img src="jeansmen9.jpg"><br>
+  <h4>Van Heusen</h4><br>
+  <p>More styling</p><br>
+   <p>Upgrade your wardrobe with our timeless classic denim jeans</p><br>
+   <h6>₹999.00</h6>             
+   <button class="buy-1">Buy now</button>
+</div>
+
+<div class="content">
+  <img src="jeansmen10.jpg"><br>
+  <h4> Conquistador Flex</h4><br>
+  <p> Conquistador Flex</p><br>
+   <p>Military Style Men's Cargo Pants with Pockets (Olive Dark, W40 / L36) </p><br>
+   <h6>₹899.00</h6>             
+   <button class="buy-1">Buy now</button>
+</div>
+</div>
+
+<!--Jacket-->
+<h2 class="product">Jackets</h2>
+<div id="jacket">
+<div class="content">
+  <img src="jacketmen1.jpg"><br>
+  <h4>Biylaclesen Field</h4><br>
+  <p>Fleece Cargo</p><br>
+   <p> Jacket For Men Cotton Winter Casual Millitary Jacket</p><br>
+   <h6>₹1399.00</h6>             
+   <button class="buy-1">Buy now</button>
+</div>
+
+<div class="content">
+  <img src="jacketmen2.jpg"><br>
+  <h4>Leathers Jacket</h4><br>
+  <p>Genuine Jacket</p><br>
+   <p> Pure Genuine Leather Jacket For Men's.Its look Stylish</p><br>
+   <h6>₹6999.00</h6>             
+   <button class="buy-1">Buy now</button>
+</div>
+
+<div class="content">
+  <img src="jacketmen3.jpg"><br>
+  <h4>Riding  Jacket</h4><br>
+  <p>Design Biker</p><br>
+   <p> Men Self Design Biker/Riding Jacket.Its made up of good material. </p><br>
+   <h6>₹1449.00</h6>             
+   <button class="buy-1">Buy now</button>
+</div>
+
+<div class="content">
+  <img src="jacketmen4.jpg"><br>
+  <h4>Belie Men's</h4><br>
+  <p>Jacket Black</p><br>
+   <p> Zipper pu Leather Jacket with Removable fur Hood</p><br>
+   <h6>₹1381.00</h6>             
+   <button class="buy-1">Buy now</button>
+</div>
+
+<div class="content">
+  <img src="jacketmen5.jpg"><br>
+  <h4>He descubierto</h4><br>
+  <p> más increíbles</p><br>
+   <p> He descubierto los artículos más increíbles en SHEIN.com,</p><br>
+   <h6>₹1543.00</h6>             
+   <button class="buy-1">Buy now</button>
+</div>
+
+<div class="content">
+  <img src="jacketmen6.jpg"><br>
+  <h4>Belie Men's</h4><br>
+  <p>Jacket Black</p><br>
+   <p> Zipper pu Leather Jacket with Removable fur Hood</p><br>
+   <h6>₹1321.00</h6>             
+   <button class="buy-1">Buy now</button>
+</div>
+
+<div class="content">
+  <img src="jacketmen7.jpg"><br>
+  <h4>Retro geomertic</h4><br>
+  <p>Colour block</p><br>
+   <p> PrintedSleeve Type: Long SleeveElasticity hood</p><br>
+   <h6>₹1333.00</h6>             
+   <button class="buy-1">Buy now</button>
+</div>
+
+<div class="content">
+  <img src="jacketmen8.jpg"><br>
+  <h4>Hombres Pizea</h4><br>
+  <p>jacket cool</p><br>
+   <p> e descubierto los artículos más increíbles en </p><br>
+   <h6>₹899.00</h6>             
+   <button class="buy-1">Buy now</button>
+</div>
+</div>
+
+<!--Hoodie-->
+<h2 class="product">Hoodie</h2>
+<div id="Hoodie">
+<div class="content">
+  <img src="hoodiemen1.jpg"><br>
+  <h4>Casual Cool</h4><br>
+  <p>Hoodie</p><br>
+   <p>layer it under a denim jacket for a rugged, street-style vibe.</p><br>
+   <h6>₹799.00</h6>             
+   <button class="buy-1">Buy now</button>
+</div>  
+
+<div class="content">
+  <img src="hoodiemen2.jpg"><br>
+  <h4>Peak performance</h4><br>
+  <p>Soft Hoodie</p><br>
+   <p> 80% cotton, 20% polyester blend for ultimate comfort</p><br>
+   <h6>₹999.00</h6>             
+   <button class="buy-1">Buy now</button>
+</div>
+
+<div class="content">
+  <img src="hoodiemen3.jpg"><br>
+  <h4>Minimalist Pro</h4><br>
+  <p>Pro Hoodie</p><br>
+   <p> Zipper pu Leather Hoodie with Removable fur Hood</p><br>
+   <h6>₹989.00</h6>             
+   <button class="buy-1">Buy now</button>
+</div>
+
+<div class="content">
+  <img src="hoodiemen4.jpg"><br>
+  <h4>Stormshield </h4><br>
+  <p>Pro Hoodie</p><br>
+   <p>  Adjustable drawstring hood, kangaroo pocket for convenience</p><br>
+   <h6>₹1351.00</h6>             
+   <button class="buy-1">Buy now</button>
+</div>
+
+<div class="content">
+  <img src="hoodiemen5.jpg"><br>
+  <h4>All-Season luxe</h4><br>
+  <p>luxe Hoodie</p><br>
+   <p> Whether you're lounging at home, heading to the gym hoodie.</p><br>
+   <h6>₹1564.00</h6>             
+   <button class="buy-1">Buy now</button>
+</div>
+
+<div class="content">
+  <img src="hoodiemen6.jpg"><br>
+  <h4>Boldmove</h4><br>
+  <p>Line Hoodie</p><br>
+   <p> Stay cozy and stylish with our Ultra-Soft Pullover Hoodie.</p><br>
+   <h6>₹898.00</h6>             
+   <button class="buy-1">Buy now</button>
+</div>
+
+<div class="content">
+  <img src="hoodiemen7.jpg"><br>
+  <h4>Edgeflex </h4><br>
+  <p>Active Hoodie</p><br>
+   <p>Perfect for layering or wearing solo and more styling</p><br>
+   <h6>₹1599.00</h6>             
+   <button class="buy-1">Buy now</button>
+</div>
+
+<div class="content">
+  <img src="hoodiemen8.jpg"><br>
+  <h4>Street vibe</h4><br>
+  <p>cool hoodie</p><br>
+   <p> Pair this hoodie with joggers and sneakers for a sporty look,</p><br>
+   <h6>₹799.00</h6>             
+   <button class="buy-1">Buy now</button>
+</div>
+</div>
+
+
+
+<!--Footwear-->
+<h2 class="product">Footwear</h2>
+<div id="footwear">
+<div class="content">
+  <img src="footwearmen1.jpg"><br>
+  <h4>Auserio Leather </h4><br>
+  <p>Shoes for Office & Parties</p><br>
+   <p> Auserio Men's Full Grain Leather Derby Lace Up Formal Shoes </p><br>
+   <h6>₹1899.00</h6>             
+   <button class="buy-1">Buy now</button>
+</div>
+
+<div class="content">
+  <img src="footwearmen2.jpg"><br>
+  <h4>Ziroxi Skechers</h4><br>
+  <p>Sneakers Men's Sports</p><br>
+   <p> Leather city Casual Men and breathable. More Compartable</p><br>
+   <h6>₹2999.00</h6>             
+   <button class="buy-1">Buy now</button>
+</div>
+
+<div class="content">
+  <img src="footwearmen3.jpg"><br>
+  <h4>Brown Horse</h4><br>
+  <p>Sneakers</p><br>
+   <p> Men Multicolor Amazing Collection Sneakers</p><br>
+   <h6>₹999.00</h6>             
+   <button class="buy-1">Buy now</button>
+</div>
+
+<div class="content">
+  <img src="footwearmen4.jpg"><br>
+  <h4>Stroble Shoes</h4><br>
+  <p>Hybrid Shoe</p><br>
+   <p> Comfortable casual formal Hybrid Shoe's and stroble shoes</p><br>
+   <h6>₹1599.00</h6>             
+   <button class="buy-1">Buy now</button>
+</div>
+
+<div class="content">
+  <img src="footwearmen5.jpg"><br>
+  <h4>Regal Walk</h4><br>
+  <p>RunSphere</p><br>
+   <p> Unmatched Variety Thousands of designs to match your style.</p><br>
+   <h6>₹7999.00</h6>             
+   <button class="buy-1">Buy now</button>
+</div>
+
+<div class="content">
+  <img src="footwearmen6.jpg"><br>
+  <h4>Velvet Steps</h4><br>
+  <p>Luxe Shoe</p><br>
+   <p>  Trendy sneakers, polished formals, and rugged boots.</p><br>
+   <h6>₹1299.00</h6>             
+   <button class="buy-1">Buy now</button>
+</div>
+
+<div class="content">
+  <img src="footwearmen7.jpg"><br>
+  <h4>KickCraze</h4><br>
+  <p>Elite Footwear</p><br>
+   <p> Comfortable casual formal Hybrid Shoe's and stroble shoes</p><br>
+   <h6>₹6599.00</h6>             
+   <button class="buy-1">Buy now</button>
+</div>
+
+<div class="content">
+  <img src="footwearmen8.jpg"><br>
+  <h4>Shoe Haven</h4><br>
+  <p>Walk well</p><br>
+   <p>  Eco-friendly and vegan options available and casual shoes</p><br>
+   <h6>₹2999.00</h6>             
+   <button class="buy-1">Buy now</button>
+</div>
+</div>
+<!--Innerwear-->
+
+<!--Accessiors-->
+<h2 class="product">Accessiors</h2>
+<div id="accessories">
+<div class="content">
+  <img src="accessmen1.webp"><br>
+  <h4>MinimalBand</h4><br>
+  <p>RegalBand</p><br>
+   <p> Premium metals and genuine leather for long-lasting durability.</p><br>
+   <h6>₹399.00</h6>             
+   <button class="buy-1">Buy now</button>
+</div>
+
+<div class="content">
+  <img src="accessmen2.jpg"><br>
+  <h4>Timeless Elegance</h4><br>
+  <p>ModularTime</p><br>
+   <p>Crafted with top-tier materials for durability and accuracy</p><br>
+   <h6>₹1399.00</h6>             
+   <button class="buy-1">Buy now</button>
+</div>
+
+<div class="content">
+  <img src="accessmen3.webp"><br>
+  <h4>LinkSphere</h4><br>
+  <p>Regal Chains</p><br>
+   <p>Silver Chains: Sleek and modern, perfect for everyday wear.</p><br>
+   <h6>₹599.00</h6>             
+   <button class="buy-1">Buy now</button>
+</div>
+
+<div class="content">
+  <img src="accessmen4.jpg"><br>
+  <h4>StreetSnap</h4><br>
+  <p>Fresh Fit</p><br>
+   <p> From casual to chic, we have the cap to match your mood</p><br>
+   <h6>₹799.00</h6>             
+   <button class="buy-1">Buy now</button>
+</div>
+
+<div class="content">
+  <img src="accessmen8.jpg"><br>
+  <h4>Aura Bracelets</h4><br>
+  <p>TimeScript</p><br>
+   <p>Retro-inspired looks for modern fashionistas. Time </p><br>
+   <h6>₹899.00</h6>             
+   <button class="buy-1">Buy now</button>
+</div>
+
+<div class="content">
+  <img src="accessmen5.jpg"><br>
+  <h4>Core Straps</h4><br>
+  <p>SecureStyle</p><br>
+   <p>Eye-catching designs for the bold and daring. and lather</p><br>
+   <h6>₹1399.00</h6>             
+   <button class="buy-1">Buy now</button>
+</div>
+
+<div class="content">
+  <img src="accessmen6.jpg"><br>
+  <h4>Smart Glass</h4><br>
+  <p>APPARELVIBES</p><br>
+   <p>Lightweight lenses with UV protection and anti-glare coatings</p><br>
+   <h6>₹799.00</h6>             
+   <button class="buy-1">Buy now</button>
+</div>
+
+<div class="content">
+  <img src="accessmen7.jpg"><br>
+  <h4>Geometric ring</h4><br>
+  <p>Pattern Ring</p><br>
+   <p>  Bold, sleek, and sophisticated styles for modern men.</p><br>
+   <h6>₹5999.00</h6>             
+   <button class="buy-1">Buy now</button>
+</div>
+</div>
+  </div><br>
+  
+<!--Card disgin finish-->
+<div id="Aboutus">
+<div class="about">
+  
+
+<h2 style="text-align: center;">Aboutus</h2><br>
+<p>Meraki Fashion – your ultimate destination for all things men’s fashion!</p><br>
+<p>At Meraki Fashion, we believe in celebrating individuality and style. Whether you’re looking for sharp formal wear, comfortable casuals, or trendy accessories, we’ve got you covered. Our curated collection is designed to meet the dynamic lifestyle of modern men, blending quality, comfort, and the latest trends</p><br>
+<p>What sets us apart?</p>
+<ul>
+  <li><b>Premium Quality:</b> We handpick every product to ensure top-notch quality and durability.</li>
+  <li><b>Affordable Luxury:</b> Great style doesn’t have to come with a hefty price tag.</li>
+  <li><b>Customer First: </b>Your satisfaction is our priority. From easy navigation to seamless delivery, we’re here to make your shopping experience hassle-free.</li>
+</ul><br>
+<p>Join the Meraki Fashion family and redefine your wardrobe with confidence and sophistication.
+
+  Let’s make fashion effortless for you.
+  
+  </p><br>
+  <h2><b><i>Contact Us</i></b></h2><br>
+  <h3><b>Phone No:044-8685870</b></h3><br>
+  <h4><b>E-Mail : deeps01@gmail.Com</b></h4><br>
+  <h4><b>Website : www.deepstrendingwear.com</b></h4>
+
+  
+</div>
+</div>
+</body>
+</html>
