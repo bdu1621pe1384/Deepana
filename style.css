@@ -1,0 +1,214 @@
+body{
+    margin: 0;
+    margin-top: 0;
+    font-family: sans-serif;
+    background-color: #b5b9f1;
+    background-size: cover;
+    }
+.bgcolor{
+    background-image: url('backgound1.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    max-width: 100%;
+    max-height: 100%;
+}
+.cont1 h1{
+    text-align: center;
+    padding-right: 20%;
+    font-size: 70px;
+    color: #152329;
+    background-size: cover;
+    background: fixed;
+}
+    .cont1 h1 {
+        font-family: "Heebo", serif;
+        font-optical-sizing: auto;
+        font-weight: <weight;
+        font-style: normal;
+}
+.logo img{
+    float: center;
+    width: 150px;
+    height: auto;
+
+}
+h3{
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    padding-top: 10px;
+}
+a{
+    text-decoration: none;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+#shirt{
+    margin-left: 115px;
+}
+#t-shirt{
+    margin-left: 115px;
+}
+#jeans{
+    margin-left: 115px;
+}
+#jacket{
+    margin-left: 115px;
+}
+#footwear{
+    margin-left: 115px;
+}
+#innerwear{
+    margin-left: 115px;
+}
+#accessories{
+    margin-left: 115px;
+}
+#Hoodie{
+    margin-left: 115px;
+}
+.content{
+    width: 20%;
+    margin: 18px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    box-shadow: 0 14px 28px rgba(204, 197, 197, 0.25),
+    0 10px 10px rgba(0, 0, 0, 0, 0.22);
+    transition: .4s;
+    background-color: #f3f8d6;
+}
+.content:hover{
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16),
+    0 3px 6px rgba(0, 0, 0, 0.23);
+    transform: translate(0px,-8px);
+}
+img{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+p{
+    text-align: center;
+    color: #152329;
+    padding-top: 0 8px;
+}
+h6{
+    font-size: 26px;
+    text-align: center;
+    color: #222f3e;
+    margin: 0;
+}
+u1{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+li{
+    padding: 5px;
+}
+.fa{
+    font-size: 26px;
+    transition: .4s;
+    margin: 3px;
+}
+button{
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    width: 100%;
+    padding: 15px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    margin-top: 5px;
+    border: botton right radius 20px;
+    border: botton left radius 20px;
+}
+.buy-1:hover{
+    background-color: #f44336;
+}
+.buy-2:hover{
+    background-color: #f44336;
+}
+.buy-3:hover{
+    background-color: #f44336;
+}
+.buy-4:hover{
+    background-color: #f44336;
+}
+.buy-1{
+    background-color: #2183a2;
+}
+.buy-2{
+    background-color: #2183a2;
+}
+.buy-3{
+    background-color:#2183a2 ;
+}
+.buy-4{
+    background-color: #2183a2;
+}
+/*our products*/
+.product{
+    background-color: #152329;
+    color: whitesmoke;
+    text-align: center;
+    width: 100%;
+    height: 25%;
+}
+/*media type*/
+@media(max-width:1000px){
+    .content{
+         width: 45%;
+    }
+@media(max: width 750px){
+    .content
+        width: 100%;
+    }
+    /* finish the card disign*/
+  }
+  .btnlogin-popup{
+    width: 130px;
+    height: 50px;
+    background-color: #0c0909;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #eceaea;
+    font-weight: 500;
+    text-align: center;
+    float: right;
+    margin-right: 40px;
+    border-radius: 50px;
+  }
+  .btnlogin-popup:hover{
+    background-color: #fff;
+    color: black;
+  }
+.about{
+    background-image:url('aboutus.jpg') ;
+    color: white;
+    background-size: cover;
+    text-align: center;
+}
+.about p{
+    color: white;
+}
+
